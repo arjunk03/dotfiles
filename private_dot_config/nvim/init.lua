@@ -1,22 +1,2 @@
-require "keymaps" 
--- require "tokyonight"
---require "tokyonight"
-require "options" 
---require "hop-config"
---require "tokyonight"
-require "options" 
---require "colorscheme"
-require "lazy-config"
-require "indentline-config"
-require "lualine-config"
-require "nvim-tree-config"
-require "alpha-config"
-require "autopairs-config"  
-require "bufferline-config"
-require "telescope-config"
-require "toggleterm-config"
-require "treesitter-config"
-require "undotree-config"
-require "whichkey"
-
-
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
