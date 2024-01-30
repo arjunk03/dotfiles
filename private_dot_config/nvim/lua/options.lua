@@ -47,8 +47,10 @@ opt.wrap = false -- Disable line wrap
 -- Fix markdown indentation settings
 vim.g.markdown_recommended_style = 0
 
+
+vim.schedule(function () vim.o.background = "dark" end)
 --vim.cmd 'colorscheme tokyonight'
---vim.cmd[[colorscheme tokyonight-night]]
+--vim.cmd[[colorscheme tokyonight-dark]]
 
 
 --vim.o.background = "dark" -- or "light" for light mode
