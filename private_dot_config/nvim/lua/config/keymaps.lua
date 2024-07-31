@@ -5,7 +5,7 @@ local keymap = vim.keymap
 keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
 -- remap esc to jj for easier access
 keymap.set("i", "jj", "<Esc>", { noremap = false })
--- enable and disable completions engine
+-- e~/.config/nvim   ✔nable and disable completions engine
 keymap.set("n", "<leader>p", '<cmd>lua require("cmp").setup { enabled = true }<cr>', { desc = "Enable completion" })
 keymap.set("n", "<leader>P", "<cmd>lua require('cmp').setup { enabled = false}<cr>", { desc = "Disable completion" })
 
